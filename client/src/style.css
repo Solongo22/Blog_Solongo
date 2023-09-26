@@ -1,0 +1,472 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar-header {
+    width: 100%;
+    height: 80px;
+    padding: 15px 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    background: linear-gradient(60deg, #ff6b35  40%, #4169e1);
+    /* background: linear-gradient(79deg,
+        rgb(3, 3, 154),
+        rgb(207, 8, 41) rgb(4, 4, 150)); */
+    box-shadow: -1px 32px 21px -32px rgba(112, 93, 93, 1);
+    border-radius: 15px 15px 0 0;
+}
+
+.navbar-header .link {
+    color:white;
+    margin: 0px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar-header .link h5{
+    color: #ff6b35;
+}
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.signup_form{
+    border: 2px solid #ff6b35;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    box-shadow: 2px 6px 140px -37px #ff6b35;
+}
+
+.signup_form form input{
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid #ff6b35;
+    outline: none;
+    margin-bottom: 5px;
+   
+}
+
+.signup_form form input:focus{
+    color: #4169e1;
+}
+.signup_form form input::placeholder {
+  
+    color: #ff6b35;
+    
+}
+
+.signup_form form button, .signup_form button{
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 213, 213);
+}
+.signup_form label{
+    color:white
+    
+
+}
+.signup_form form button{
+    background-color: #4169e1;
+    color: white;
+}
+
+.signup_form button{
+    background-color: #ff6b35;
+    color: white;
+}
+
+.signup_btn{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.signup_btn:hover{
+
+transform: scale(1.02);
+transition: all 0.2s ease-in;
+}
+
+.signup_form h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #4169e1;
+}
+
+.signup_form p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.button{
+    margin-top: 25px;
+
+}
+
+.logout_btn{
+    font-size: 16px;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    background-color: #ff6b35;
+    border: none;
+    cursor: pointer;
+}
+.logout_btn:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+    
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    min-height: 70vh;
+
+}
+
+.login-form{
+    border: 2px solid #ff6b35;
+        padding: 20px;
+        border-radius: 10px;
+        width: 25%;
+        box-shadow: 2px 6px 140px -37px #ff6b35;
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #4169e1;
+    font-weight: 800;
+}
+
+.login-form input {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid #ff6b35;
+    outline: none;
+    margin-bottom: 5px;
+color: #ff6b35;
+}
+
+.login-form label{
+    color: #4169e1;
+}
+
+.login-form p{
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.login_btn {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #4169e1;
+        color: white;
+        outline: none;
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid rgb(216, 213, 213);
+       
+}
+
+.login_btn:hover {
+
+    transform: scale(1.02);
+    transition: all 0.2s ease-in;
+}
+.btn{
+    background-color: #ff6b35
+}
+.post_container{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 80vh;
+}
+.btn_input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.post_form{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+    border: 2px solid #ff6b35;
+        padding: 20px;
+        border-radius: 10px;
+        
+        box-shadow: 2px 6px 140px -37px #ff6b35;
+}
+
+.post_form input,textarea, button{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px;
+
+}
+.post_form input,
+textarea{
+border: 2px solid #ff6b35;
+    outline: none;
+    margin-bottom: 5px;
+    color: #ff6b35;
+    border-radius: 15px;
+}
+
+.post_form input::placeholder,
+textarea::placeholder{
+    color: #ff6b35;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.post_form .file{
+    border: 2px solid #ff6b35;
+        outline: none;
+        margin-bottom: 5px;
+        color: #ff6b35;
+        border-radius: 15px;
+}
+
+.post_form button{
+    margin-top: 10px;
+        font-size: 20px;
+        background-color: #4169e1;
+        color: white;
+        outline: none;
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid rgb(216, 213, 213);
+        cursor: pointer;
+}
+.post_form button:hover{
+    transform: scale(1.02);
+        transition: all 0.2s ease-in;
+}
+
+.post_form h2{
+    text-align: center;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        color: #4169e1;
+        font-weight: bold;
+}
+.home_container{
+width: 100%;
+    align-items: center;
+        justify-content: center;
+        min-height: 90vh;
+        overflow: scroll;
+        
+        
+
+}
+.home{
+display: flex;
+  
+    margin: 50px;
+   border: 2px solid #ff6b35;
+    margin-bottom: 10px;
+    
+    border-radius: 15px;
+}
+
+.home img{
+    width: 20%;
+    height: 200px;
+    object-fit: contain;
+    margin-right: 30px;
+    border-radius: 15px 0 0 15px;
+    padding: 20px;
+}
+
+.home img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.home_text h2{
+margin-top: 20px;
+margin-bottom: 20px;
+color: #4169e1;
+padding: 0 20px;
+}
+
+.home_text p{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 20px;
+    text-align: justify;
+
+}
+
+.posts_container{
+
+max-width: 1000px;
+max-height: auto;
+margin-left: 400px;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
+
+.posts{
+display: flex;
+flex-direction: column;
+
+}
+ .posts img{
+    display: block;
+    height: 300px;
+    object-fit: cover;
+ }
+
+ .posts h2{
+    display: block;
+    color: #4169e1;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+ }
+
+ .posts p{
+    font-size: 20px;
+    text-align: justify;
+ }
+
+ .posts_btn{
+    display: flex;
+    
+    gap: 20px;
+    
+    
+ }
+
+ .posts_btn button{
+    margin-top: 10px;
+        font-size: 16px;
+        background-color: #4169e1;
+        color: white;
+        outline: none;
+        width: 100px;
+        height: 40px;
+        padding: 4px;
+        border-radius: 5px;
+        border: 1px solid rgb(216, 213, 213);
+        cursor: pointer;
+        text-align: center;
+       
+        
+ }
+ .posts_btn .button{
+    margin-left: 760px;
+ }
+
+ .posts_btn .button2{
+    background-color: #ff6b35;
+ }
+
+ .posts_btn button:hover {
+
+     transform: scale(1.1);
+     transition: all 0.2s ease-in;
+ }
+
+ .editpost_container {
+
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80vh;
+       
+ }
+
+ .editpost{
+    width: 50%;
+        border: 1px solid gray;
+        padding: 20px;
+        border: 2px solid #ff6b35;
+        padding: 20px;
+        border-radius: 10px;
+    
+        box-shadow: 2px 6px 140px -37px #ff6b35;
+ }
+
+ .editpost input,
+ textarea,
+ button {
+     width: 100%;
+     margin: 10px 0px;
+     padding: 8px;
+
+ }
+
+ .editpost input,
+ textarea {
+     border: 2px solid #ff6b35;
+     outline: none;
+     margin-bottom: 5px;
+     color: #ff6b35;
+     border-radius: 15px;
+ }
+
+ .editpost input::placeholder,
+ textarea::placeholder {
+     color: #ff6b35;
+     font-size: 16px;
+     font-family: 'Courier New', Courier, monospace;
+
+ }
+ .editpost button {
+     margin-top: 10px;
+     font-size: 20px;
+     background-color: #4169e1;
+     color: white;
+     outline: none;
+     width: 100%;
+     padding: 8px;
+     border-radius: 5px;
+     border: 1px solid rgb(216, 213, 213);
+     cursor: pointer;
+ }
+
+ .editpost button:hover {
+     transform: scale(1.02);
+     transition: all 0.2s ease-in;
+ }
+
+ .editpost h2 {
+     text-align: center;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+     color: #4169e1;
+     font-weight: bold;
+ }
